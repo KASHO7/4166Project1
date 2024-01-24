@@ -90,17 +90,25 @@ main p{
 
 
 /* footer */
-footer{
-    position: absolute;
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
     bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+    left: 0;
     background-color: black;
-    color: green;
-    justify-content: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
 }
-footer li{
+footer a {
+    color: green;
+    border-bottom: 1px solid transparent;
+    margin-left: 20px;
     cursor: pointer;
-    display: inline;
-    padding: 20px;
+}
+footer a:hover {
+    border-bottom: 2px solid green;
 }
