@@ -40,7 +40,7 @@ input{
 
 /* footer */
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     align-items: center;
     /* margin: 20px; */

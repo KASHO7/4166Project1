@@ -11,6 +11,7 @@ html {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* header */
@@ -47,13 +48,23 @@ button{
 }
 #buttonLogIn {
     background-color: black;
-    border: 2px solid #04AA6D;
-    color: #04AA6D;
+    border: 2px solid green;
+    color: green;
+}
+#buttonLogIn:hover{
+    background-color: green;
+    color: black;
+    border: 2px solid black;
 }
 #buttonSignUp{
     background-color: green;
     color: white;
-    border: none;
+    border: 2px solid transparent;
+}
+#buttonSignUp:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green
 }
 
 /* nav */
@@ -76,6 +87,7 @@ main{
 main p{
     margin-top: 50px;
 }
+
 
 /* footer */
 footer{
