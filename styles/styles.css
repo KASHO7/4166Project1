@@ -83,6 +83,7 @@ button{
 main{
     margin-left: 100px;
     padding: 100px;
+    min-height: calc(100vh - 250px);
 }
 main p{
     margin-top: 50px;
@@ -93,15 +94,16 @@ main p{
 footer {
     display: flex;
     flex-direction: row;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    /* position: fixed; */
+    /* bottom: 0;
+    left: 0; */
     background-color: black;
     text-align: center;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-    width: 100%;
+    width: 100vw; 
+    height: 50px;
 }
 footer p{
     color: green;
@@ -115,4 +117,9 @@ footer a {
 }
 footer a:hover {
     border-bottom: 2px solid green;
+}
+
+/* responsive design */
+@media (min-width: 900px) {
+    
 }
