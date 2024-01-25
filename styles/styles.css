@@ -32,9 +32,8 @@ header li {
 }
 header img{
     border-radius: 5px;
-    height: 100px;
+    height: 10vh;
     margin-left: 1rem;
-
 }
 button{
     cursor: pointer;
@@ -47,6 +46,7 @@ button{
     background-color: #082e38;
     color: white;
     border: 1px solid transparent;
+    width: 12vw;
 }
 #newConnection:hover{
     border: 1px solid white;
@@ -55,6 +55,7 @@ button{
     background-color: #082e38;
     border: 2px solid #358b7d;
     color: #358b7d;
+    width: 7vw;
 }
 #buttonLogIn:hover{
     background-color: #358b7d;
@@ -65,6 +66,7 @@ button{
     background-color: #082e38;
     border: 2px solid #358b7d;
     color: #358b7d;
+    width: 7vw;
 }
 #buttonSignUp:hover{
     background-color: #358b7d;
@@ -91,7 +93,7 @@ button{
 main{
     /* margin-left: 100px; */
     padding: 100px;
-    min-height: calc(100vh - 215px);
+    min-height: calc(100vh - 210px);
     color: #082e38;
     width: 100vw;
 }
