@@ -1,1 +1,21 @@
 
+.studyEvent {
+  display: inline;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+}
+.socialEvent {
+  display: inline;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+}
+
+.studyEvent li {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+}
+.socialEvent li {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+}
+
