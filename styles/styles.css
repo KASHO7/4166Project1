@@ -103,6 +103,10 @@ footer {
     margin-top: 1rem;
     width: 100%;
 }
+footer p{
+    color: green;
+    margin-left: 1rem;
+}
 footer a {
     color: green;
     border-bottom: 1px solid transparent;
