@@ -25,5 +25,9 @@ form button{
     color: white;
     width: 500px;
     margin-top: 20px;
+}
 
+/* responsive design */
+@media (min-width: 900px) {
+    
 }
