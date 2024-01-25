@@ -88,29 +88,6 @@ main p {
   margin-top: 50px;
 }
 
-/* footer */
-footer {
-  display: flex;
-  flex-direction: row;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: black;
-  text-align: center;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-  margin-top: 1rem;
-  width: 100%;
-}
-footer a {
-  color: green;
-  border-bottom: 1px solid transparent;
-  margin-left: 20px;
-  cursor: pointer;
-}
-footer a:hover {
-  border-bottom: 2px solid green;
-}
 .eventimg-container {
   width: 40%;
 }
