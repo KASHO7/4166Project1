@@ -16,15 +16,12 @@ a {
 
 /* header */
 header {
-    background-color: black;
-    color: green;
+    background-color: #082e38;
+    color: #082e38;
     align-items: center;
     display: flex;
     justify-content: space-between;
-}
-header img {
-    /* border-radius: 25px; */
-    margin: 2rem 2rem 1rem 1rem;
+    height: 13vh;
 }
 header ul{
     margin-right: 25px;
@@ -33,7 +30,12 @@ header li {
     display: inline;
     margin-left: 20px;
 }
+header img{
+    border-radius: 5px;
+    height: 100px;
+    margin-left: 1rem;
 
+}
 button{
     cursor: pointer;
     text-align: center;
@@ -42,37 +44,37 @@ button{
     padding: 10px 10px;
 }
 #newConnection{
-    background-color: black;
-    color: green;
+    background-color: #082e38;
+    color: white;
     border: 1px solid transparent;
 }
 #newConnection:hover{
-    border: 1px solid green;
+    border: 1px solid white;
 }
 #buttonLogIn {
-    background-color: black;
-    border: 2px solid green;
-    color: green;
+    background-color: #082e38;
+    border: 2px solid #358b7d;
+    color: #358b7d;
 }
 #buttonLogIn:hover{
-    background-color: green;
-    color: black;
-    border: 2px solid black;
+    background-color: #358b7d;
+    color: #082e38;
+    border: 2px solid #358b7d;
 }
 #buttonSignUp{
-    background-color: green;
-    color: white;
-    border: 2px solid transparent;
+    background-color: #082e38;
+    border: 2px solid #358b7d;
+    color: #358b7d;
 }
 #buttonSignUp:hover{
-    background-color: white;
-    color: green;
-    border: 2px solid green
+    background-color: #358b7d;
+    color: #082e38;
+    border: 2px solid #358b7d;
 }
 
 /* nav */
 #generalSite ul{
-    background: green;
+    background: #358b7d;
     padding: 20px 20px;
     color: white;
 }
@@ -81,12 +83,16 @@ button{
     padding: 20px;
     cursor: pointer;
 }
+#generalSite a{
+    color: #082e38;
+}
 
 /* main */
 main{
     margin-left: 100px;
     padding: 100px;
     min-height: calc(100vh - 250px);
+    color: #082e38;
 }
 main p{
     margin-top: 50px;
@@ -100,7 +106,7 @@ footer {
     /* position: fixed; */
     /* bottom: 0;
     left: 0; */
-    background-color: black;
+    background-color: #082e38;
     text-align: center;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
@@ -109,17 +115,17 @@ footer {
     height: 50px;
 }
 footer p{
-    color: green;
+    color: #eaede8;
     margin-left: 1rem;
 }
 footer a {
-    color: green;
+    color: #eaede8;
     border-bottom: 1px solid transparent;
     margin-left: 20px;
     cursor: pointer;
 }
 footer a:hover {
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #eaede8;
 }
 
 /* responsive design */
