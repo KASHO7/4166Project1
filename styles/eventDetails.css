@@ -40,3 +40,14 @@
 h2 {
   margin-right: 10px;
 }
+@media screen and (max-width: 768px) {
+  .btn-group-container {
+    flex-direction: column;
+  }
+  .eventimg-container {
+    width: 100%;
+  }
+  .eventInfo {
+    width: 100%;
+  }
+}
