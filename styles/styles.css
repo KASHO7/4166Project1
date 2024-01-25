@@ -44,7 +44,10 @@ button{
 #newConnection{
     background-color: black;
     color: green;
-    border: none;
+    border: 1px solid transparent;
+}
+#newConnection:hover{
+    border: 1px solid green;
 }
 #buttonLogIn {
     background-color: black;

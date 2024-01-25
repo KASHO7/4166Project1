@@ -25,6 +25,13 @@ form button{
     color: white;
     width: 500px;
     margin-top: 20px;
+    border: 1px solid transparent;
+}
+
+#submit:hover{
+    border: 1px solid blue;
+    color:blue;
+    background-color: white;
 }
 
 /* responsive design */
