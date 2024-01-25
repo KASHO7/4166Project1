@@ -1,3 +1,31 @@
+.btn-group-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-group button {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.eventimg-container,
+.eventInfo {
+  display: inline-block;
+}
+
+.eventInfo h2 {
+  margin: 0;
+}
 .eventimg-container {
   width: 40%;
 }
@@ -6,16 +34,6 @@
   height: auto;
   object-fit: cover;
 }
-.eventInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.eventimg-container,
-.eventInfo {
-  display: inline-block;
-  vertical-align: top;
-}
-.eventInfo h2 {
-  margin: 20px;
+.btn-group i {
+  background-color: transparent;
 }
