@@ -48,14 +48,13 @@
     align-items: center;
   }
 
-main li{
-  border-bottom: 1px solid transparent;
-  cursor: pointer;
-}
-main li:hover{
-  border-bottom: 1px solid #082e38;
-}
-
+  main li {
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+  }
+  main li:hover {
+    border-bottom: 1px solid #082e38;
+  }
 
   #newConnection,
   #buttonLogIn,
