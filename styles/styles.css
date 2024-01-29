@@ -130,5 +130,31 @@ footer a:hover {
 }
 
 /* responsive design */
-@media (min-width: 900px) {
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+  }
+
+  header ul {
+    margin: 0;
+  }
+
+  header img {
+    height: 80px; /* Adjust the height as needed */
+    margin: 10px 0;
+  }
+
+  header li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
 }
