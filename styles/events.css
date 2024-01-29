@@ -17,6 +17,7 @@
   margin: 10px 10px 10px 10px;
   padding: 10px 10px;
 }
+
 .studyEvent li a:hover {
   color: #358b7d;
   text-decoration: underline;
@@ -46,6 +47,15 @@
     flex-direction: column;
     align-items: center;
   }
+
+main li{
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+main li:hover{
+  border-bottom: 1px solid #082e38;
+}
+
 
   #newConnection,
   #buttonLogIn,
