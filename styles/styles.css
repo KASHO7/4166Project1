@@ -89,10 +89,11 @@ button{
 
 /* main */
 main{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     padding: 100px;
-    min-height: calc(100vh - 250px);
+    min-height: calc(100vh - 215px);
     color: #082e38;
+    width: 100vw;
 }
 main p{
     margin-top: 50px;
@@ -108,20 +109,22 @@ footer {
     left: 0; */
     background-color: #082e38;
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    margin-top: 1rem;
+    /* padding-top: 0.5rem; */
+    /* padding-bottom: 1rem; */
+    /* margin-top: 1rem; */
     width: 100vw; 
     height: 50px;
 }
 footer p{
     color: #eaede8;
     margin-left: 1rem;
+    padding-top: 1rem;
 }
 footer a {
     color: #eaede8;
     border-bottom: 1px solid transparent;
     margin-left: 20px;
+    padding-top: 1rem;
     cursor: pointer;
 }
 footer a:hover {
