@@ -40,7 +40,7 @@
   min-width: 300px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .btn-group-container {
     flex-direction: column;
     gap: 10px;
