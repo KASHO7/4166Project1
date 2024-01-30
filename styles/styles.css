@@ -90,7 +90,7 @@ button {
 main {
   /* margin-left: 100px; */
   padding: 100px;
-  min-height: calc(100vh - 215px);
+  min-height: calc(100vh - 235px);
   color: #082e38;
   width: 100vw;
 }
