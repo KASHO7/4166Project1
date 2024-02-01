@@ -52,17 +52,17 @@ button {
 } */
 #newConnection {
   display: inline-block;
-  padding: 10px 20px; /* Adjust padding as needed */
-  border: 1px solid #082e38; /* Set initial border style */
-  text-decoration: none; /* Remove default underline for links */
-  color: #e2dddd; /* Set text color */
+  padding: 10px 20px;
+  border: 1px solid #082e38;
+  text-decoration: none;
+  color: #e2dddd;
   transition: border 0.3s ease-in-out;
 
-  border-radius: 5px; /* Add rounded corners */
+  border-radius: 5px;
 }
 
 #newConnection:hover {
-  border: 1px solid white; /* Change border color on hover */
+  border: 1px solid white;
 }
 #buttonLogIn {
   background-color: #082e38;
