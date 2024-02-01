@@ -45,10 +45,10 @@ button {
 #newConnection {
   background-color: #082e38;
   color: white;
-  border: 1px solid transparent;
+  border: 20px solid transparent;
 }
 #newConnection:hover {
-  border: 1px solid white;
+  border: 2px solid white;
 }
 #buttonLogIn {
   background-color: #082e38;
